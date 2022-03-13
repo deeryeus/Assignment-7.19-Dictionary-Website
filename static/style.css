@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    font-family: arial;
+}
+
+.menu {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(77, 33, 77);
+    color: white;
+}
+
+.menu-item {
+    margin: 5px 10px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: rgb(180, 90, 153);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+h1, h2, p {
+    margin-left: 30px;
+}

@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+{% block container %}
+
+<h1>{{ title }}</h1>
+
+<p>{{ text }}</p>
+
+<ul>
+    {% for word in prefix_list %}
+        <li>
+            <!--'prefix' is the argument passed on from function: word_dictionary() in app.py-->
+            <a href="{{ url_for('word_dictionary', prefix=word) }}">{{ word }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
